@@ -1,0 +1,40 @@
+header{
+    text-align: center;
+    color: rgb(232, 117, 117);
+    background-color: thistle;
+    height: auto;
+    padding: 15px 0 15px 0;
+    border-radius: 20px;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+}
+.box1 img{
+    border-radius: 25px;
+    padding: 15px;
+    height: auto;
+    width: 48%;
+}
+.disc{
+    width: 45%;
+    padding-left: 25px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.disc h1{
+    font-size: 38px;
+    color: rgb(255, 255, 255);
+}
+.disc h1 span{
+    font-size: 30px;
+}
+.disc p{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(192, 192, 192);
+}
+.disc p span{
+    color: azure;
+}

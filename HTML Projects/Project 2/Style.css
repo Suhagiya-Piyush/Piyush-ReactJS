@@ -1,0 +1,38 @@
+.logo{
+    height: auto;
+    width: 300px;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    color: violet;
+}
+.box, .box1, .box2, .box3{
+    height: 350px;
+    width: 33.33%;
+    /* padding: 5px; */
+}
+img{
+    height: 352px;
+    /* width: 365px; */
+}
+h2{
+    font-weight: bolder;
+    color: teal;
+}
+h4{
+    color: turquoise;
+}
+h5{
+    font-style: italic;
+    color: turquoise;
+    font-size: 16px;
+}
+pre{
+    font-weight: bold;
+}
+td{
+    color: darkgreen;
+}

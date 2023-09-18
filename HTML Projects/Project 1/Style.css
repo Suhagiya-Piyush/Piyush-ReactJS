@@ -1,0 +1,26 @@
+header{
+    height: 80px; 
+    width: 100%; 
+    background-color:aqua; 
+    border-bottom: 10px solid grey; 
+    border-radius: 7px;
+    padding-top: 20px;
+}
+h1{
+    font-family: monospace; 
+    text-align: center;
+    font-size:44px; 
+    margin: 0;
+    color: chocolate;
+}
+section{
+    width: 100%;
+    background-color: rgb(203, 245, 231);
+    color: cadetblue;
+}
+h2{
+    color:coral;
+}
+img{
+    height: 250px;
+}

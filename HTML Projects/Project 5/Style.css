@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+header h1{
+    color: teal;
+    height: 70px;
+    padding-top: 25px;
+    text-align: center;
+    margin: 0;
+}
+.main hr{
+    border: 4px solid black;
+    margin: 0;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px;
+}
