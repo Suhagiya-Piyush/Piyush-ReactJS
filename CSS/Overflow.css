@@ -1,0 +1,168 @@
+ @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    padding: 70px;
+    margin-top: 70px;
+}
+.box1{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    background-image: url(overflow-assets/asset\ 41.png);
+    background-color: darkslategray;
+    border-radius: 8px;
+    text-align: center;
+}
+div:first-child h3:first-child{
+    color: whitesmoke;
+    font-weight: 800;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+div:first-child h1:nth-last-child(2){
+    color: orange;
+    font-weight: 900;
+    font-family: 'Gabarito', cursive;
+}
+.box1-main{
+    position: absolute;
+    height: 65%;
+    bottom: 0;
+    right: 0;
+}
+.box1-tag{
+    width: 27%;
+    z-index: 2;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.box1-img .p1, .box1-img .p2{
+    margin: 0;
+    position: absolute;
+    bottom: 60px;
+    right: 38px;
+    z-index: 3;
+    font-family: 'Gabarito', cursive;
+    font-weight: 700;
+}
+.box1-img .p2{
+    bottom: 40px;
+}
+
+.box2{
+    width: 400px;
+    height: 190px;
+    background-color: crimson;
+    margin-left: 30px;
+    border-radius: 8px;
+    position: relative;
+}
+.box2-img img{
+    position: absolute;
+    height: 131%;
+    bottom: 0;
+}
+.part{
+    position: absolute;
+    right: 40px;
+}
+.part h5,.part h1,.part h2,.part input{
+    margin: 10px;
+}
+.part h5,.part h1{
+    font-family: 'Gabarito', cursive;
+    color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+}
+.part h2{
+    font-family: 'Roboto Mono', monospace;
+    color: yellow;
+}
+.part input{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+
+.box3{
+    width: 400px;
+    height: 190px;
+    background-image: url(overflow-assets/asset\ 42.png);
+    margin-left: 30px;
+    border-radius: 8px;
+}
+.text{
+    position: absolute;
+    right: 100px;
+}
+.text h4{
+    font-family: 'Gabarito', cursive;
+    color: whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    margin: 40px 0 5px;
+}
+.text h1{
+    margin: 5px 0;
+}
+.text input{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.box4{
+    width: 812px;
+    height: 190px;
+    background-image: url(overflow-assets/asset\ 43.png);
+    background-color: green;
+    margin-left: 30px;
+    border-radius: 8px;
+    position: absolute;
+    top: 350px;
+    right: 57px;
+}
+.box4 img{
+    height: 270px;
+    margin-top: -3%;
+    position: absolute;
+    left: -5%;
+}
+.box4 h6{
+    color: aliceblue;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5px;
+}
+.box4 h1{
+    color:orange;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 36px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5px;
+}
+.box4 input{
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    padding:15px 20px;
+    border-radius: 10px;
+    border: none;
+}

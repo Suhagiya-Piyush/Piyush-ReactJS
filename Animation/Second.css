@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Onest:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background-color: rgb(21, 4, 4);
+    display: flex;
+}
+.bounce{
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,0.2));
+}
+.bounce span{
+    font-size: 48px;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Onest', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    color: whitesmoke;
+    position: relative;
+    display: inline-block;
+    animation: bouncing 2s infinite;
+    animation-delay: calc(.1s * var(--i));
+}
+
+@keyframes bouncing{
+    0%, 40%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        color: greenyellow;
+    }
+    75%{
+        color: lightskyblue;
+    }
+    20%{
+        color: red;
+        transform: translateY(-20px);
+    }
+}

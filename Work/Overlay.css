@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 1263px;
+    height: 610px;
+}
+
+.overlay{
+    background-color: black;
+    width: 1263px;
+    height: 610px;
+    position: absolute;
+    inset: 0;
+    opacity: 0.6;
+}
+.overlay h2{
+    color: white;
+    margin: 100px 0 0 150px;
+    font-size: 36px;
+}
+hr{
+    position: absolute;
+    width: 21%;
+    height: 2px;
+    background-color: white;
+    left: 150px;
+}
+.overlay p{
+    color: whitesmoke;
+    margin: 20px 150px 0 150px;
+    text-align: justify;
+    line-height: 22px;
+    letter-spacing: 2px;
+    
+}
+.overlay p a{
+    position: absolute;
+    color: whitesmoke;
+    text-decoration: none;
+    right: 200px;
+    font-size: 32px;
+    margin-top: 20px;
+    animation:slide 5s linear infinite ;
+}
+@keyframes slide{
+    0%{
+        color: red;
+    }
+    25%{
+        color: brown;
+    }
+    50%{
+        color: greenyellow;
+    }
+    75%{
+        color: gold;
+    }
+    100%{
+        color: white;
+    }
+}

@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+}
+.sys{
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.main-form{
+    position: relative;
+}
+.or{
+    position: absolute;
+    top: -34px;
+    background-color: white;
+}
+.btn{
+    color: white;
+}
+.fc-red{
+    color: red;
+}
+.fw-medium{
+    color: white;
+}
+.white i{
+    color: white!important;
+}
