@@ -129,6 +129,7 @@ table, tr, td{
     width: 60%;
 }
 .sec-box1 h2{
+    font-family: 'Dancing Script', cursive;
     margin-top: 50px;
     font-size: 34px;
     color: gray;
@@ -291,6 +292,9 @@ table, tr, td{
 .containt1 h3{
     text-transform: uppercase;
     color: red;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 15px;
+
 }
 .containt1 p{
     font-size: 12px;
@@ -416,6 +420,7 @@ table, tr, td{
     font-size: 30px;
     color: gray;
     margin-top: -5px;
+    margin-bottom: 15px;
 }
 .sec-4-2 h2{
     text-transform: uppercase;
@@ -457,7 +462,7 @@ table, tr, td{
     margin: 0 20% 6%;
 }
 .site-hedding h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Dancing Script', cursive; 
     font-weight: 700;
     font-size: 30px;
     color: #e7272d;
@@ -479,6 +484,7 @@ table, tr, td{
 }
 .exp-detail{
     display: flex;
+    margin-bottom: 50px;
 }
 .exp-box1, .exp-box2, .exp-box3{
     width: 30%;
@@ -526,6 +532,93 @@ table, tr, td{
     list-style-type: none;
 }
 .infor ul li{
+    float: left;
+    margin: 10px 15px 30px;
+}
+.infor ul li a{
     font-size: 20px;
-    color: black;
+}
+.sec-main{
+    padding: 80px 0;
+    background-color: #f7f7f7;
+}
+.sec-dtl{
+    text-align: center;
+    padding: 0 25%;
+    margin-bottom: 60px;
+}
+.sec-dtl h2{
+    color: #e7272d;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+.sec-dtl h1{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.sec-dtl p{
+    color: #666666;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+.owl{
+    margin: 0 100px;
+}
+.owl-item{
+    text-align: center;
+    display: flex;
+}
+.item{
+    width: 60%;
+    margin: 0 15px;
+    padding: 20px;
+    background-color: white;
+}
+.item h4{
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.item p{
+    color: #666666;
+    font-size: 13px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+.thumb{
+    width: 20%;
+    margin: 20px 40%;
+    position: relative;
+}
+.thumb img{
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.thumb i{
+    border-radius: 50%;
+    position: absolute;
+    padding-top: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #e7272d;
+    right: 7px;
+    top: -10px;
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+}
+.clients-info h5{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.rating i{
+    color: #e7272d;
+    font-size: 14px;
 }
