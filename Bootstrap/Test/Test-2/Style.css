@@ -1,0 +1,49 @@
+/* Normal CSS */
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/* Main CSS */
+body{
+    background-color: lightgrey !important;
+}
+.container{
+    border-radius: 50px;
+    background-color: white;
+}
+.log{
+    position: relative;
+}
+.overlay{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    opacity: 0.6;
+}
+.overlay i{
+    font-size: 3.5rem;
+    color: white;
+}
+
+.height-pre{
+    height: 1000px;
+}
+span{
+    font-weight: 500;
+    opacity: 0.6;
+}
+h1{
+    font-size: 2.7rem;
+    letter-spacing: 1px;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+}

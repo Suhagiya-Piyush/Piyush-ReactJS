@@ -1,0 +1,43 @@
+/* Normal CSS */
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/* Main CSS */
+
+.box{
+    width: 100%;
+}
+.box-img{
+    height: 250px;
+    position: relative;
+}
+.msg{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(85, 22, 22);
+}
+span{
+    opacity: 0.5;
+}
+.box-txt .card-body img{
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+}
+.box-txt .row p{
+    font-size: 11px;
+}
+.disc{
+    font-weight: 700;
+}
+.card-body span{
+    font-size: 12px;
+}
