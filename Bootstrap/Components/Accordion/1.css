@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgba(255, 78, 81, 0.861);
+}
+hr{
+    color: white;
+}
+.accordion-button{
+    position: relative;
+    padding-left: 30px;
+    box-shadow: none !important;
+    color: rgb(114, 114, 114);
+    font-size: 1.35rem;
+}
+.accordion-button::after{
+    position: absolute;
+    background: url(plus.svg);
+    height: 35px;
+    width: 35px;
+    left: -19px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.accordion-button:not(.collapsed)::after{
+    background: url(dash.svg);
+    background-color: whitesmoke;
+}

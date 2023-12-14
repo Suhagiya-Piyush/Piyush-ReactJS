@@ -1,0 +1,22 @@
+.bg-color{
+    background-color: rgb(156, 83, 224);
+    border-radius: 30px !important;
+    color: white;
+    font-weight: 600;
+}
+.accordion-item{
+    border: 0 !important; 
+}
+.accordion-button:not(.collapsed) {
+    color: white;
+    font-weight: 600;
+    background-color: rgb(156, 83, 224);
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-button::after {
+    background: url(Down.svg) !important;
+}

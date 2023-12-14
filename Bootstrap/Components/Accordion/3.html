@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion 3</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="3.css">
+</head>
+<body>
+    <div class="row">
+        <p class="text-center my-5"><span class="fw-600 fs-5"><strong>Accordion Style</strong></span></p>
+        <div class="col-8 m-auto">
+            <div class="accordion p-5" id="accordionExample">
+                <div class="accordion-item my-2">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button bg-color collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Section - 1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur laboriosam deleniti quos voluptatibus quis ad quasi dolore voluptatem debitis autem veniam eum hic nesciunt fuga distinctio non illo temporibus, quidem ipsam? Asperiores labore id nam quibusdam praesentium maxime sint necessitatibus corporis quis sunt. Ex laudantium dignissimos ratione, voluptate ipsam eveniet?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-2">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button bg-color collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Section - 2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur laboriosam deleniti quos voluptatibus quis ad quasi dolore voluptatem debitis autem veniam eum hic nesciunt fuga distinctio non illo temporibus, quidem ipsam? Asperiores labore id nam quibusdam praesentium maxime sint necessitatibus corporis quis sunt. Ex laudantium dignissimos ratione, voluptate ipsam eveniet?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item my-2">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button bg-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            Section - 3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur laboriosam deleniti quos voluptatibus quis ad quasi dolore voluptatem debitis autem veniam eum hic nesciunt fuga distinctio non illo temporibus, quidem ipsam? Asperiores labore id nam quibusdam praesentium maxime sint necessitatibus corporis quis sunt. Ex laudantium dignissimos ratione, voluptate ipsam eveniet?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

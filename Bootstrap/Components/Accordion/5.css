@@ -1,0 +1,27 @@
+.body-bg{
+    background: linear-gradient(to right, #33cccc 0%, #ff99ff 100%);
+}
+.mt-5{
+    margin-top: 8rem !important;
+}
+.accordion-button::after {
+    background: url(plus1.svg);
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button{
+    background-color: white !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background: url(dash1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-uppercase{
+    font-weight: 600;
+}
