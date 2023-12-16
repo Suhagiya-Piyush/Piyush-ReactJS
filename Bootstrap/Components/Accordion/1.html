@@ -1,64 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accordion 1</title>
-    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+      href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="1.css">
-</head>
-<body class="px-5 py-4">
+  </head>
+  <body class="px-5 py-4">
     <hr>
-  <div class="accordion p-5" id="accordionExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          <strong>What is Lorem Ipsum?</strong>
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ad magnam provident vero maiores fugit labore. Minima consectetur error veniam ratione harum amet beatae iste consequatur enim delectus quas, voluptatem inventore corporis tempore quasi eius, sunt, dicta consequuntur hic eveniet fuga! Veritatis dolor voluptatibus fugiat ipsa quo non tempore dolorem.
+    <div class="accordion p-5" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button"
+            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            <strong>What is Lorem Ipsum?</strong>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quia ad magnam provident vero maiores fugit
+            labore. Minima consectetur error veniam ratione harum amet beatae
+            iste consequatur enim delectus quas, voluptatem inventore corporis
+            tempore quasi eius, sunt, dicta consequuntur hic eveniet fuga!
+            Veritatis dolor voluptatibus fugiat ipsa quo non tempore dolorem.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+            aria-expanded="false" aria-controls="collapseTwo">
+            <strong>Why do we use it?</strong>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsa
+            neque enim voluptatem obcaecati maxime quam facere temporibus.
+            Deserunt qui accusamus fuga enim adipisci velit est recusandae illo
+            repudiandae facilis dolor iste, animi cum doloribus illum molestiae
+            vitae placeat, tempora sint voluptatibus officia ipsa distinctio!
+            Iusto perspiciatis veritatis excepturi sit!
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+            aria-expanded="false" aria-controls="collapseThree">
+            <strong>Where dose it from?</strong>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+            voluptatem amet aperiam quia debitis. Vero, doloribus! Inventore
+            saepe nulla tenetur quo dolores expedita voluptatum, enim facilis
+            distinctio unde, iste placeat quam sed illum! Aspernatur, hic
+            consequatur! Adipisci reprehenderit ipsam eius quisquam deleniti
+            voluptatum sint, ab molestiae nihil nam possimus doloremque.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+            aria-expanded="false" aria-controls="collapseFour">
+            <strong>Where can I get some?</strong>
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
+            voluptatem amet aperiam quia debitis. Vero, doloribus! Inventore
+            saepe nulla tenetur quo dolores expedita voluptatum, enim facilis
+            distinctio unde, iste placeat quam sed illum! Aspernatur, hic
+            consequatur! Adipisci reprehenderit ipsam eius quisquam deleniti
+            voluptatum sint, ab molestiae nihil nam possimus doloremque.
+          </div>
         </div>
       </div>
     </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          <strong>Why do we use it?</strong>
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsa neque enim voluptatem obcaecati maxime quam facere temporibus. Deserunt qui accusamus fuga enim adipisci velit est recusandae illo repudiandae facilis dolor iste, animi cum doloribus illum molestiae vitae placeat, tempora sint voluptatibus officia ipsa distinctio! Iusto perspiciatis veritatis excepturi sit!
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          <strong>Whera dose it from?</strong>
-        </button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptatem amet aperiam quia debitis. Vero, doloribus! Inventore saepe nulla tenetur quo dolores expedita voluptatum, enim facilis distinctio unde, iste placeat quam sed illum! Aspernatur, hic consequatur! Adipisci reprehenderit ipsam eius quisquam deleniti voluptatum sint, ab molestiae nihil nam possimus doloremque.
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          <strong>Whera can I get some?</strong>
-        </button>
-      </h2>
-      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis voluptatem amet aperiam quia debitis. Vero, doloribus! Inventore saepe nulla tenetur quo dolores expedita voluptatum, enim facilis distinctio unde, iste placeat quam sed illum! Aspernatur, hic consequatur! Adipisci reprehenderit ipsam eius quisquam deleniti voluptatum sint, ab molestiae nihil nam possimus doloremque.
-        </div>
-      </div>
-    </div>
-  </div>
-    
+
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
