@@ -1,0 +1,13 @@
+.hov:hover{
+    background-color: brown;
+}
+.hove:hover{
+    background-color: darkgreen;
+}
+.prof:hover{
+    background-color: #198754;
+    color: aquamarine;
+}
+.box{
+    box-shadow: 2px 2px 10px grey;
+}
