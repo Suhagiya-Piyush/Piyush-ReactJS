@@ -1,0 +1,21 @@
+.modal-header{
+    background-color: rgb(39, 154, 230);
+    color: white;
+}
+.fa-bell{
+    font-size: 48px;
+    color: rgb(39, 154, 230);
+}
+.btn-primary{
+    background-color: rgb(39, 154, 230) !important;
+}
+.btn-outline-primary{
+    border-color: rgb(39, 154, 230) !important;
+    color:  rgb(39, 154, 230) !important;
+}
+.btn-outline-primary:hover{
+    background-color: white;
+}
+.btn-outline-primary:active{
+    background-color: white;
+}
