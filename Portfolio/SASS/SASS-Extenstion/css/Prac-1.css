@@ -1,0 +1,25 @@
+.box2, .box1 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 0, 68);
+}
+
+.box3, .box2 {
+  border: 3px solid blue;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 100vh;
+}
+
+.box3 {
+  background-color: gray;
+  height: 50px !important;
+  width: 50px;
+}/*# sourceMappingURL=Prac-1.css.map */

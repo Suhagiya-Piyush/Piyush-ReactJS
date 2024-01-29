@@ -1,0 +1,53 @@
+// @import 'variables';
+@use 'variables' as *;
+
+.container{
+    display: $d-flex;
+    flex-flow: $flex-r $f-wrap;
+    justify-content: $jst-spb;
+    text-align: $txt-cen;
+    padding: $p-30 $p-100;
+    font-family: 'Roboto Mono', monospace;
+}
+.box{
+    flex: 1 1 25%;
+    border: $brd-2 solid $clr-blc;
+    padding: $p-40 $p-20;
+    margin: $m-15;
+    border-radius: $brd-rad0-5;
+
+    &:hover{
+        background-color: $clr-dpik;
+    }
+}
+.box span i{
+    font-size: $fs-72;
+}
+.box h1{
+    text-transform: $tt-upr;
+    margin-top: $m-25;
+}
+.box-1{
+    border: $brd-2 solid $clr-dpik;
+    background-color: $clr-dpik;
+    color: $clr-wht;
+}
+.box p{
+    font-weight: $fw-600;
+    font-size: $fs-18;
+}
+.btn{
+    width: $w-25;
+    background-color: $clr-blc;
+    color: $clr-wht;
+    display: $d-blk;
+    margin: $m-a;
+    padding: $p-10 0;
+    text-decoration: $txt-dec;
+    text-transform: $tt-upr;
+    border-radius: $brd-rad3;
+}
+.btn-1{
+    background-color: $clr-wht;
+    color: $clr-dpik;
+}

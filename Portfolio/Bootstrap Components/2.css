@@ -1,0 +1,14 @@
+body{
+    background-color: lightgray;
+}
+.container{
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+}
+.cloud{
+    padding: 3rem 2.5rem;
+}
+.cloud i{
+    font-size: 5rem;
+}

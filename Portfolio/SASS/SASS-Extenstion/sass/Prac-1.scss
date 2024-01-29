@@ -1,0 +1,104 @@
+@use 'variables' as *;
+
+
+// .container{
+//     background-color: $clr-atw;
+//     width: $wv-75;
+//     margin: $m-a;
+//     text-align: $align-c;
+//     height: $wh-100;
+// }
+// nav{
+//     background-color: $clr-org;
+//     padding: $p-10 $p-20;
+//     display: $d-flex;
+//     justify-content: $jst-end;
+//     @at-root
+//     ul{
+//         list-style-type: $lst-no;
+//         li{
+//             border: $brd-1 solid $clr-gry;
+//             border-radius: $brd-rad2;
+//             display: $d-flex;
+//             float: $flt-lft;
+//             &:hover{
+//                 background-color: $clr-atw;
+//             }
+//             &:hover a{
+//                 color: black;
+//             }
+//             a{
+//                 text-decoration: $txt-no;
+//                 margin: 0 $m-15;
+//                 font-size: $fs-24;
+//                 color: $clr-wht;
+//             }
+//         }
+//     }
+// }
+
+
+// SASS Mixin Method
+
+// @mixin flexbox{
+//     display: $d-flex;
+//     justify-content: $jst-spa;
+//     align-items: $align-c;
+//     height: $wh-50;
+//     background-color: $clr-atw;
+// }
+
+// @mixin square($color:$clr-red){
+//     height: $h-10;
+//     width: $w-10;
+//     background-color: $color;
+//     @content;
+// }
+
+// .container{
+//     @include flexbox;
+//     .box1{
+//         @include square;
+//     }
+//     .box2{
+//         @include square($color:$clr-brn);
+//     }
+//     .box3{
+//         @include square($color:$clr-gry);
+//     }
+// }
+
+// SASS Extend Method
+
+%square{
+    height: $h-10;
+    width: $w-10;
+    background-color: $clr-dpik;
+}
+%square-2{
+    border: $brd-3 solid $clr-blu;
+}
+
+.container{
+        background-color: $clr-atw;
+        width: $wv-75;
+        margin: $m-a;
+        display: $d-flex;
+        justify-content: $jst-spb;
+        text-align: $align-c;
+        height: $wh-100;
+    }
+
+.box1{
+    @extend %square;
+}
+.box2{
+    @extend %square;
+    @extend %square-2;
+}
+.box3{
+    @extend %square-2;
+    background-color: $clr-gry;
+    height: $h-5 !important;
+    width: $w-5;
+}

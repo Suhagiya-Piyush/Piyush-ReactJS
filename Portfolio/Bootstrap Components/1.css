@@ -1,0 +1,32 @@
+
+a{
+    text-decoration: none;
+}
+button{
+    padding: 1.5rem 2rem;
+    border: none;
+    background-color: rgb(246, 247, 249);
+    border-radius: 50px;
+    margin: 3rem 0;
+}
+.col-3 button{
+    box-shadow: 4px 4px 7px rgb(199, 208, 217);
+}
+.card{
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px lightgray;
+    margin: 1.8rem 0 0 1.8rem;
+}
+.col-3{
+    margin-top: 2px;
+    border-radius: 20px;
+}
+.row .col-3:nth-child(1){
+    background-color: lightyellow;
+}
+.row .col-3:nth-child(2){
+    background-color: rgb(252, 228, 231);
+}
+.row .col-3:nth-child(3){
+    background-color: rgb(209, 234, 250);
+}
