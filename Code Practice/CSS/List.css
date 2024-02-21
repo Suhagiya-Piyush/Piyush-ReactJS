@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+/* Main CSS */
+.container {
+  max-width: calc(100vw - 12vw);
+  margin-inline: auto;
+}
+.navbar {
+  height: 100px;
+  display: flex;
+  padding: 12px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo span {
+  font-size: 36px;
+  color: orange;
+}
+.navbar .logo span:hover {
+  color: orangered;
+}
+.nav-items {
+  display: flex;
+}
+.nav-items ul {
+  display: none;
+}
+.nav-items ul li {
+  margin-inline: 10px;
+}
+.nav-items ul li a {
+  color: gray;
+  font-size: 22px;
+}
+.nav-items ul li:hover a {
+  color: darkgrey;
+}
+
+.regester span {
+  padding: 10px;
+  background-color: darksalmon;
+  margin-inline: 10px;
+  border-radius: 25px;
+  display: none;
+}
+.regester span a {
+  color: white;
+  font-size: 22px;
+}
+.regester:hover span{
+  background-color: white;
+}
+.regester:hover span a{
+  color: darksalmon;
+}
+.menu span i {
+  color: gray;
+  font-size: 22px;
+  margin-left: 25px;
+  /* display: none; */
+}

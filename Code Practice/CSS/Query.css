@@ -1,0 +1,32 @@
+@media (min-width: 576px) {
+  .menu span i {
+    display: flex;
+    align-items: center;
+  }
+  .nav-items ul {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .regester span {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu span i {
+    display: none;
+  }
+  .nav-items ul {
+    display: flex;
+    padding-block: 8px;
+  }
+  .nav-items ul li {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+}

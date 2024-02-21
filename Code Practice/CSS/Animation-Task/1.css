@@ -1,0 +1,33 @@
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  border-radius: 100%;
+  animation-name: Move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  margin: 100px;
+  box-sizing: content-box;
+}
+@keyframes Move {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: 250px;
+    border: 5px solid blue;
+  }
+  50% {
+    left: 500px;
+    border: 10px solid blue;
+  }
+  75% {
+    left: 750px;
+    border: 5px solid blue;
+  }
+  100% {
+    left: 1000px;
+  }
+}

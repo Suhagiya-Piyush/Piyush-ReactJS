@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* main CSS */
+
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  position: relative;
+  width: 28%;
+  border-radius: 6%;
+  overflow: hidden;
+}
+.card-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.5s ease-in-out;
+}
+.card:hover .card-img img {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.card:hover .card-header {
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
+  transform: translateY(40px);
+}
+.card:hover {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+}
+.card-body {
+  position: absolute;
+  top: 0;
+  padding: 30px 35px;
+}
+.title {
+  color: orange;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.heading {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 1.5rem;
+}
+.card-footer {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+}
+.logo img {
+  width: 40px;
+  margin-right: 15px;
+}
